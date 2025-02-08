@@ -1,0 +1,1 @@
+The Firebase SDK may throw an error if you try to access a database reference before it has fully initialized. This can happen if you attempt to perform a database operation within the `onCreate` function of your Activity or when the database connection is unstable or slow.
